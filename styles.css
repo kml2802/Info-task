@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  width:"80%";
+  justify-content:space-between; 
+  /* align-items: center; */
+}
+
+form {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.profile-photo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-photo button{
+  gap: 10px;
+}
+
+.profile-photo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  gap: 50px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  /* border: none; */
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  /* margin-right: 30px; */
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.profile-card {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* position: relative; */
+  /* display: flex; */
+}
+.profile-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+  margin: 10px 0 5px;
+}
+
+.profile-card p {
+  margin: 0 0 10px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  border-color: red;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+.success {
+  border-color: green;
+}
+
+#emailForm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+#profileForm{
+  position: relative;
+}
+
+#profileForm button{
+float: right;
+}
